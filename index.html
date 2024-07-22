@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Advanced Translation App</h1>
+        <div>
+            <textarea id="input_text" placeholder="Enter text to translate..."></textarea>
+            <button id="speak_input">Speak Input</button>
+        </div>
+        <div>
+            <label for="source_lang">Source Language:</label>
+            <select id="source_lang">
+                <option value="auto">Auto</option>
+                <!-- Options will be populated by script.js -->
+            </select>
+        </div>
+        <div>
+            <label for="target_lang">Target Language:</label>
+            <select id="target_lang">
+                <!-- Options will be populated by script.js -->
+            </select>
+        </div>
+        <button id="translate_button">Translate</button>
+        <div>
+            <textarea id="output_text" readonly></textarea>
+            <button id="speak_output">Speak Translation</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

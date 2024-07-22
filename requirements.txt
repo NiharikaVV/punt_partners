@@ -1,0 +1,7 @@
+Flask
+googletrans==4.0.0-rc1
+SpeechRecognition
+gtts
+pygame
+pydub
+python-dotenv
