@@ -1,7 +1,7 @@
 # punt_partners
 Make sure you installed these pakages
 pip install googletrans==4.0.0-rc1 speechrecognition gtts pygame python-dotenv
-
+pip install pyaudio
 
 Dependencies:
 
@@ -16,3 +16,4 @@ It gives output like these
 
 ![image](https://github.com/user-attachments/assets/bb8f667a-60b4-4ed9-8b0c-e3124c5b493e)
 
+To get the above output , open TranslationApp.py and run it , before running make sure you installed all packages.
